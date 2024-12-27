@@ -1,0 +1,59 @@
+  /* General Navbar */
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100dvw;
+    justify-content: center;
+    align-items: center;
+/*     padding: 5px; */
+    gap: 400px;
+    padding: 30px 0;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Logo */
+  .navbar-logo{
+    width: 150px; /* Ajusta el tamaño según tu preferencia */
+    height: auto;
+    object-fit: contain;
+  }
+  
+  /* Categorías */
+  .navbar-categorias ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-categorias li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-categorias li a:hover {
+    color: gray;
+  }
+  
+  /* Iconos */
+  .navbar-iconos {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.2rem;
+  }
+  .navbar-iconos img {
+    width: 20px;
+    height: auto;
+  }
+  
+  .navbar-iconos .navbar-monto-total {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  

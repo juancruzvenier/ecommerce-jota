@@ -9,5 +9,10 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script type="module">
+      import { createRequire } from 'module';
+      const require = createRequire(import.meta.url);
+      require('react-router-dom');
+    </script>
   </body>
 </html>
